@@ -30,3 +30,6 @@ PDFs/
 
 # models
 models/
+
+# But not in assets folder
+!/assets/prisoner_dilemma.png

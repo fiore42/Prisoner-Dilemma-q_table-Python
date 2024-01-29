@@ -1,3 +1,7 @@
+<h3 align="center">
+  <img src="assets/prisoner_dilemma.png" width="300">
+</h3>
+
 # Iterative Prisoner's Dilemma in Python
 
 This repository contains a Python implementation of the Iterative Prisoner's Dilemma, featuring over 25 common strategies along with a reinforcement learning strategy implemented using a q_table approach (not DQN). The program is designed to simulate 9 strategies facing each other in the Prisoner's Dilemma, a standard example of a game analyzed in game theory that shows why two completely rational individuals might not cooperate, even if it appears that it is in their best interest to do so.
