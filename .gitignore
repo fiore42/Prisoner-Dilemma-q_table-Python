@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Python bytecode compiled versions 
+__pycache__/
+
+# old stuff
+old/
+
+# Other common ignores (optional)
+*.log
+*.old
+*.env
+*.sh
+*.out
+.DS_Store
+
+# Ignore images case insentive
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.[gG][iI][fF]
+*.[pP][nN][gG]
+*.[wW][eE][bB][pP]
+
+# log files
+log/
+
+# pdfs
+PDFs/
+
+# models
+models/
