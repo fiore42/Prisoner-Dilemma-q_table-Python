@@ -13,6 +13,7 @@ old/
 *.env
 *.sh
 *.out
+*.csv
 .DS_Store
 
 # Ignore images case insentive
@@ -34,3 +35,4 @@ models/
 # But not in assets folder
 !/assets/prisoner_dilemma.png
 !/assets/prisoner_dilemma_social_preview.jpg
+!/run_100.sh
