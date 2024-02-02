@@ -228,7 +228,7 @@ def tit_for_tat_imperfect(myHistory, opponentHistory, very_verbose):
 def return_avg_last_5(myHistory, opponentHistory, very_verbose):
     if not opponentHistory:
         return 'C'
-    cutOff = max (5,len(opponentHistory))
+    cutOff = min (5,len(opponentHistory))
     last_moves_max_5 = opponentHistory[-cutOff:]
     cooperate_count = last_moves_max_5.count('C')
     defect_count = last_moves_max_5.count('D')
